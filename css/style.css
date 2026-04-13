@@ -106,3 +106,26 @@ footer a {
 footer a:hover {
     color: #23B9C5;
 }
+.skills-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-pill {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero-links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
